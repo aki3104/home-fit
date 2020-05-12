@@ -1,6 +1,7 @@
 <template>
   <v-text-field
     prepend-icon='fa-key'
+    type="password"
     label='password'
     @input="inputText($event)"
   />
